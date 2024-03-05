@@ -34,11 +34,11 @@ const Body = (props:Props) => {
               </button>
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
-              {navigation.map((item) => (
+              {/* {navigation.map((item) => (
                 <a key={item.name} href={item.href} className={`text-sm font-semibold leading-6 text-gray-200 ${item?.active ? 'text-emerald-600' : ''}`}>
                   {item.name}
                 </a>
-              ))}
+              ))} */}
               {/* <input type="text" name="search" id="search" className="w-96 rounded-md focus:outline-none" /> */}
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
