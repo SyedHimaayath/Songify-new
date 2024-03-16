@@ -7,7 +7,7 @@ import Genres from './pages/Genres';
 
 function App() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename='/Songify-new/'>
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/home" element={<Home />} />
