@@ -1,26 +1,26 @@
-import { Dialog } from "@headlessui/react";
-import { ReactNode, useState } from "react";
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+// import { Dialog } from "@headlessui/react";
+import { ReactNode } from "react";
+// import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import TrendingHits from "../trending-hits";
-import { setIsLoggedIn } from "../../store/reducers/ui";
-import store from "../../store";
+// import { setIsLoggedIn } from "../../store/reducers/ui";
+// import store from "../../store";
 
-const navigation = [
-    { name: 'MUSIC', href: '#', active:true },
-    { name: 'PODCASTS', href: '#' },
-    { name: 'LIVE', href: '#' },
-  ]
+// const navigation = [
+//     { name: 'MUSIC', href: '#', active:true },
+//     { name: 'PODCASTS', href: '#' },
+//     { name: 'LIVE', href: '#' },
+//   ]
 
 const Body = (props:Props) => {
-    const dispatch = store.dispatch;
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    // const dispatch = store.dispatch;
+    // const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     
     
   return (
     <div className="h-screen relative bg-gradient-to-b from-[#050505] from-40% via-[#101012] via-50% to-[#19181d] to-60% overflow-y-auto">
       
-      <div className="">
+      {/* <div className="">
         <header className="top-0 z-50 text-white">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:hidden">
@@ -32,14 +32,6 @@ const Body = (props:Props) => {
                 <span className="sr-only">Open main menu</span>
                 <Bars3Icon className="h-6 w-6 text-white" aria-hidden="true" />
               </button>
-            </div>
-            <div className="hidden lg:flex lg:gap-x-12">
-              {/* {navigation.map((item) => (
-                <a key={item.name} href={item.href} className={`text-sm font-semibold leading-6 text-gray-200 ${item?.active ? 'text-emerald-600' : ''}`}>
-                  {item.name}
-                </a>
-              ))} */}
-              {/* <input type="text" name="search" id="search" className="w-96 rounded-md focus:outline-none" /> */}
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a href="" className="text-sm font-semibold leading-6 text-gray-200" onClick={() => {dispatch(setIsLoggedIn(false))}}>
@@ -94,7 +86,7 @@ const Body = (props:Props) => {
             </Dialog.Panel>
           </Dialog>
         </header>
-      </div>
+      </div> */}
         
 
       <div className="px-8">
