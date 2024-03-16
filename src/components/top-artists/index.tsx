@@ -24,7 +24,7 @@ const TopArtists = () => {
     delaySec += 25;
     return (
       <div className={`flex flex-col justify-center items-center w-24 cursor-pointer hover:scale-110 duration-150 hover:ease-in animate-artists`}>
-        <img src={`/assets/artists/${artist.image}.jpeg`} className="w-24 h-20 rounded-md object-cover"/>
+        <img src={`/Songify-new/assets/artists/${artist.image}.jpeg`} className="w-24 h-20 rounded-md object-cover"/>
         <div className="text-center mt-2">
           <p className="w-24 uppercase text-ellipsis overflow-hidden whitespace-nowrap text-md">{artist.name}</p>
         </div>

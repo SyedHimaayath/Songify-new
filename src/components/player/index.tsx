@@ -8,7 +8,7 @@ export const BottomPlayer = () => {
     <div className="w-screen bg-black border-t-2 border-white h-28 overflow-hidden">
       <div className="flex flex-row">
         <div className="flex flex-row justify-start">
-          <img src="/assets/artists/four.jpeg" className="w-20 h-20 object-cover m-4 rounded-sm"/>
+          <img src="/Songify-new/assets/artists/four.jpeg" className="w-20 h-20 object-cover m-4 rounded-sm"/>
           <div className="flex flex-col my-4 mx-2">
             <p className="text-lg text-white mb-1">Don't Blame Me</p>
             <p className="text-sm text-gray-400">Taylor Swift</p>
@@ -81,7 +81,7 @@ const Player = (props:Props) => {
           <div className="flip-card-front h-full w-full">
            
             <div className="2xl:hidden flex flex-col justify-center items-center w-full">
-              <img src="/assets/artists/four.jpeg" className="w-44 h-44 object-cover m-4 rounded-md"/>
+              <img src="/Songify-new/assets/artists/four.jpeg" className="w-44 h-44 object-cover m-4 rounded-md"/>
               <div className="flex flex-col justify-center items-center gap-y-2">
                 <p className="text-xl text-white">Don't Blame Me</p>
                 <p className="text-md text-gray-400">Taylor Swift</p>
@@ -94,7 +94,7 @@ const Player = (props:Props) => {
 
             <div className="xl:hidden 2xl:flex flex-col px-6 relative w-full mt-10 h-3/4">
               <div className="flex flex-row">
-                <img src="/assets/artists/four.jpeg" className=" w-48 h-48 object-cover m-4 rounded-md"/>
+                <img src="/Songify-new/assets/artists/four.jpeg" className=" w-48 h-48 object-cover m-4 rounded-md"/>
                 <div className="flex flex-col gap-y-2 m-4 w-full">
                   <p className="text-xl text-white">Don't Blame Me</p>
                   <p className="text-md text-gray-400">Taylor Swift</p>

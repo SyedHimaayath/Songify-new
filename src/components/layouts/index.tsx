@@ -28,18 +28,18 @@ const Layout = (props:Props) => {
 
     const renderGenreLayout = () => {
         const dummyData = [
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'John Cena'}
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'John Cena'}
         ]
         return (
             <div className={`flex flex-col gap-5 ${isBottomPlayerVisible ? 'pb-32' : 'pb-8'}`}>
@@ -53,18 +53,18 @@ const Layout = (props:Props) => {
 
     const renderAlbumsLayout = () => {
         const dummyData = [
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
-            {image: '/assets/one.jpeg', name: 'Dance With Me', artist : 'John Cena'}
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'Sean Paul'},
+            {image: '/Songify-new/assets/one.jpeg', name: 'Dance With Me', artist : 'John Cena'}
         ]
         return (
             <div className={`flex flex-col gap-5 ${isBottomPlayerVisible ? 'pb-32' : 'pb-8'}`}>
