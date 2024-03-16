@@ -17,7 +17,7 @@ export const Album = (album:Album) => {
     <div className="flex flex-row items-center justify-between gap-2 ">
       <div className="flex flex-row items-center flex-1 gap-4">
         <p className="hidden lg:block text-md text-gray-500 mr-2">{'0' + (album.id + 1).toString()}</p>
-        <img src={`src/assets/artists/${album.img}`} className="w-12 h-12 object-cover object-center rounded-md cursor-pointer" />
+        <img src={`/assets/artists/${album.img}`} className="w-12 h-12 object-cover object-center rounded-md cursor-pointer" />
         <div className="flex flex-col justify-center gap-1">
           <p className="text-md">{album.name}</p>
           <p className="text-xs text-gray-400">{album.artist}</p>

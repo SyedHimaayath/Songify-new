@@ -87,7 +87,7 @@ const TrendingHits = () => {
                     </button>
                     </div>
                 </div>
-                <img className="absolute right-0 top-0 w-2/4 h-full object-contain object-right" src={`src/assets/${song.img}`} alt="" />
+                <img className="absolute right-0 top-0 w-2/4 h-full object-contain object-right" src={`/assets/${song.img}`} alt="" />
             </div>
         )
     }
